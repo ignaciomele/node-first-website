@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title%>
+    </title>
+    <%- include('partials/head.html')-%>
+    <style>
+        img {
+            max-width: 34.1%;
+            width: auto;
+        }
+    </style>
+
+  
+   
+
+</head>
+
+<body>
+
+    <%- include('partials/navigation.html')-%>
+
+<div class="container">
+    <header class="row">
+        <div class="col-lg-12 text-center">
+            <img src="img/piano.jpg" class="animate__bounceIn" alt="nachoPiano" id="piano">
+            
+        </div>
+    </header>
+</div>
+
+    <!-- SECCION ONE-->
+    <div class="container-fluid" id="about">
+        <div class="row bg-dark text-white p-5 text-center">
+            <div class="col-sm-6">
+                <i class="fab fa-youtube fa-10x"></i>
+            </div>
+            <div class="col-sm-6">
+                <h3>The most suscribed Youtuber</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod numquam nam error voluptatem cumque dolorem modi neque aspernatur aliquid totam rem debitis, laboriosam id, ex omnis voluptatum nesciunt corrupti. Quam!</p>
+            </div>
+        </div>
+    </div>
+
+    <%- include('partials/footer.html')-%>
+
+</body>
+
+</html>
